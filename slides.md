@@ -22,7 +22,7 @@
 # Node.js because
 
 * V8 is _fast_
-* Expresses network services<br>reasonably well
+* Expresses network services<br/>reasonably well
 
 !SLIDE bullets
 
@@ -46,8 +46,8 @@
 
 # Debian packaging tools
 
-* `fpm`<br><small><a href="https://github.com/jordansissel/fpm">github.com/jordansissel/fpm</a></small>
-* `freight`<br><small><a href="https://github.com/rcrowley/freight">github.com/rcrowley/freight</a></small>
+* `fpm`<br/><small><a href="https://github.com/jordansissel/fpm">github.com/jordansissel/fpm</a></small>
+* `freight`<br/><small><a href="https://github.com/rcrowley/freight">github.com/rcrowley/freight</a></small>
 
 !SLIDE bullets
 
@@ -125,7 +125,7 @@
 # `deploy`
 
 * `flock`(1) to serialize deploys
-* Broadcast deploys to Campfire,<br>Graphite, `rsyslog`, and a mailing list
+* Broadcast deploys to Campfire,<br/>Graphite, `rsyslog`, and a mailing list
 * Then deploys using Git
 
 !SLIDE bullets
@@ -139,8 +139,8 @@
     git push --force \
     "git@$HOST:$APPLICATION.git" "$BRANCH"
 
-* Fast-forwards `staging-latest` to<br>`ci-master-latest` for staging
-* Fast-forwards `production-latest` to<br>`staging-latest` for production
+* Fast-forwards `staging-latest` to<br/>`ci-master-latest` for staging
+* Fast-forwards `production-latest` to<br/>`staging-latest` for production
 
 !SLIDE bullets
 
@@ -214,7 +214,7 @@
 
 !SLIDE bullets
 
-# Non-local Nginx<br>load balancer
+# Non-local Nginx<br/>load balancer
 
 * Terminates TLS connections
 * Adds `X-Forwarded-For` header
@@ -423,8 +423,8 @@
 
 # Upstart, again
 
-* `node` standard output and standard error<br>redirected to a named pipe
-* `logger`(1) standard input<br>redirected from the named pipe
+* `node` standard output and standard error<br/>redirected to a named pipe
+* `logger`(1) standard input<br/>redirected from the named pipe
 
 !SLIDE bullets
 
@@ -444,7 +444,7 @@
 
 # Logstash
 
-* Removed because ElasticSearch<br>is a mess operationally
+* Removed because ElasticSearch<br/>is a mess operationally
 * Would like it back
 * Will not be using native ElasticSearch clients or RabbitMQ when we bring it back
 
@@ -469,13 +469,13 @@
 
 # All the things
 
-* Git<br>Jenkins<br>Upstart<br>Nginx<br>`logger`(1)<br>`rsyslog`(8)<br>Logstash<br>`statsd`<br>Graphite<br>Puppet
+* Git<br/>Jenkins<br/>Upstart<br/>Nginx<br/>`logger`(1)<br/>`rsyslog`(8)<br/>Logstash<br/>`statsd`<br/>Graphite<br/>Puppet
 
 !SLIDE bullets
 
 # You know you want to work at Betable
 
-* Almost as much as you knew<br>this slide was coming
+* Almost as much as you knew<br/>this slide was coming
 * <richard@betable.com>
 
 !SLIDE bullets
