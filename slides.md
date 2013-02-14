@@ -6,7 +6,7 @@
 
 !SLIDE bullets
 
-# Hi, I'm Richard Crowley
+# Hi, I&#8217;m Richard Crowley
 
 * Equal-opportunity technology hater
 * Head of operations at Betable
@@ -161,7 +161,7 @@
 
 # Upstart
 
-* Canonical's SysV init replacement
+* Canonical&#8217;s SysV init replacement
 * Meh
 
 !SLIDE bullets
@@ -214,7 +214,7 @@
 
 !SLIDE bullets
 
-# Non-local Nginx load balancer
+# Non-local Nginx<br>load balancer
 
 * Terminates TLS connections
 * Adds `X-Forwarded-For` header
@@ -245,7 +245,7 @@
 
 # Everything logs everything
 
-* Request identifier for a poor-man's Dapper
+* Request identifier for a poor-man&#8217;s Dapper
 * Human-readable and machine-parsable
 
 !SLIDE bullets smaller
