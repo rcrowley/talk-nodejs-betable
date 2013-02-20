@@ -85,12 +85,12 @@
 # Jenkins for Node.js
 
     @@@sh
-    git rm .gitignore
+    git rm ".gitignore"
 
     find * -type f |
     git hash-object --stdin-paths -w
 
-    git add .
+    git add "."
 
 * Vendor `node_modules`
 
