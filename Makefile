@@ -1,6 +1,6 @@
 all:
 	showoff static
-	cp -RT static ~/work/rcrowley/public/talks/nodejs-2013-02-19
+	cp -RT static ~/src/github.com/rcrowley/rcrowley/public/talks/nodejs-2013-02-19
 
 clean:
 	rm -rf static
